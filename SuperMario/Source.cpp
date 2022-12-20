@@ -109,7 +109,6 @@ int main()
 				{
 				case sf::Event::Closed:
 				{
-					mario.save_time_as_file();
 					window.close();
 
 					break;
