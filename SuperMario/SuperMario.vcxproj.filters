@@ -184,5 +184,13 @@
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\UndergroundKoopaWalk.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+    <Image Include="..\..\..\..\Desktop\backg.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Desktop\music.mp3">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
   </ItemGroup>
 </Project>

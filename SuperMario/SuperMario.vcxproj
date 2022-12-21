@@ -83,7 +83,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Users\vladk\Desktop\SFM\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -102,7 +102,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\vladk\Desktop\SFM\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -161,6 +161,7 @@
     <ClInclude Include="Mushroom.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\backg.jpg" />
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\BigMarioBrake.png" />
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\BigMarioCrouch.png" />
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\BigMarioDeath.png" />
@@ -194,6 +195,9 @@
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\UndergroundKoopaGetOut.png" />
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\UndergroundKoopaShell.png" />
     <Image Include="..\..\Super-Mario-Bros\Source\Resources\Images\UndergroundKoopaWalk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Desktop\music.mp3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
